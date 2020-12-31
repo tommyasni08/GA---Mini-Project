@@ -1,0 +1,36 @@
+{
+  "name": "teamc-backend",
+  "version": "1.0.0",
+  "description": "Mini_Project_dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.js --exit",
+    "dev": "nodemon -r ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:glintsxbinar_miniproject_batch9/team-c/teamc-backend.git"
+  },
+  "author": "TeamC_BE",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.8",
+    "mongoose-delete": "^0.5.3",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1"
+  }
+}
